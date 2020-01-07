@@ -2,7 +2,7 @@
   "name": "Lab 1: Expressions and Data Types",
   "endpoint": "ucsd/dsc10/wi20/lab01",
   "src": [
-    "lab01.ipynb"
+    "lab.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
