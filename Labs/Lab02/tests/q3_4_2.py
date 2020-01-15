@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> decade == 1970
+          >>> decade == 2000
           True
           """,
           'hidden': False,
