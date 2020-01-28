@@ -9,7 +9,7 @@ test = {
           'code': r"""
 	>>> # should be a float
 	>>> import numbers
-	>>> isinstance(san_diego_free_beaches_with_parking, numbers.Integral)
+	>>> isinstance(developed_sq_mi, numbers.Real)
 	True
           """,
           'hidden': False,
