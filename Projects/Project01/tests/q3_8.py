@@ -1,15 +1,14 @@
 
 test = {
-  'name': 'q3_7',
+  'name': 'q3_8',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-	>>> # should be a float
-	>>> import numbers
-	>>> isinstance(inches_per_year, numbers.Real)
+	>>> # should be a callable function
+	>>> callable(predict_sea_level)
 	True
           """,
           'hidden': False,
