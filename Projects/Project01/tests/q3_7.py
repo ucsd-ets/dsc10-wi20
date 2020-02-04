@@ -7,8 +7,9 @@ test = {
       'cases': [
         {
           'code': r"""
-	>>> # should be a callable function
-	>>> callable(predict_sea_level)
+	>>> # should be a float
+	>>> import numbers
+	>>> isinstance(inches_per_year, numbers.Real)
 	True
           """,
           'hidden': False,
