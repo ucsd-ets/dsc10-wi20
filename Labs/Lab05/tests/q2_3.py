@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> convenience_sample.shape[1]
-          12
+          10
           """,
           'hidden': False,
           'locked': False
