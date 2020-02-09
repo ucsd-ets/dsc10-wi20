@@ -1,6 +1,6 @@
 {
   "name": "Homework 4: Iteration, Randomness",
-  "endpoint": "ucsd/dsc10/fa20/hw04",
+  "endpoint": "ucsd/dsc10/wi20/hw04",
   "src": [
     "hw.ipynb"
   ],
