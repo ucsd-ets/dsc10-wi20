@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # Calculate the median by hand
-          >>> same == False
+          >>> same == True
           True
           """,
           'hidden': False,
