@@ -1,18 +1,18 @@
 test = {
-  'name': 'q3_1',
+  'name': 'q3_3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> np.mean(left_end) > 75
+          >>> np.mean(left_end) > 90
           True
-          >>> np.mean(left_end) < 90
+          >>> np.mean(left_end) < 100
           True
-          >>> np.mean(right_end) > 150
+          >>> np.mean(right_end) > 145
           True
-          >>> np.mean(right_end) < 170
+          >>> np.mean(right_end) < 155
           True
           """,
           'hidden': False,
