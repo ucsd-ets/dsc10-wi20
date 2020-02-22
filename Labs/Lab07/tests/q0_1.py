@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # The highest value is the 100th percentile.  What is the 91st percentile?
-          >>> set(true_percentile) != set([1, 4])
+          >>> # The highest value is the 100th percentile. 
+          >>> set(true_percentile) != set([1, 2])
           True
           """,
           'hidden': False,
@@ -15,7 +15,7 @@ test = {
         },
         {
           'code': r"""
-          >>> set(true_percentile) == set([1,3,4])
+          >>> set(true_percentile) == set([1,2,4])
           True
           """,
           'hidden': False,
