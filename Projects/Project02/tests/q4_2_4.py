@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> sorted(summed_mn_hazard_data) == ['Died', 'HazardRate', 'Participated']
+          >>> sorted(summed_mn_hazard_data.columns) == ['Died', 'HazardRate', 'Participated']
           True
           """,
           'hidden': False,

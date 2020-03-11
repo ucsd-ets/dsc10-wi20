@@ -2,7 +2,7 @@
   "name": "Project 2: Diet and Disease",
   "endpoint": "ucsd/dsc10/wi20/project02",
   "src": [
-    "project.ipynb"
+    "project02.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
